@@ -1,3 +1,3 @@
-# React + Vite + ESLint + Tailwind CSS + Prettier + React Aria
+# CMMUN
 
-This template provides a quickstart for rapid, clean and professional website development
+The site for Chiang Mai Model United Nations (for CMIS)
