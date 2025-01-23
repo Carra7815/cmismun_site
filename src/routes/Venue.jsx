@@ -1,9 +1,9 @@
 import React from "react";
 
-function Contact() {
+function Venue() {
   return (
     <div className="std-page">
-      <h2>Our Contact Info</h2>
+      <h2>Our Venue Info</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae animi
         iusto itaque ab doloremque exercitationem dolorum saepe numquam eius?
@@ -13,4 +13,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Venue;

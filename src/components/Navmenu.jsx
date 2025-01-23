@@ -21,7 +21,7 @@ function Navmenu() {
         <Bars3Icon className="nav-item h-6 w-6" />
       </Button>
       <Popover>
-        <Menu className="w-64 rounded bg-white p-1 dark:bg-gray-800">
+        <Menu className="w-64 rounded p-1 bg-gray-800">
           <Section>
             <Header className="navmenu-header">Pages</Header>
             <MenuItem className="navmenu-item" href="/conference_materials">
@@ -42,11 +42,26 @@ function Navmenu() {
             <MenuItem href="/contact" className="navmenu-item">
               Contact
             </MenuItem>
+          </Section>
+          <Section>
+            <Header className="navmenu-header">Schools</Header>
             <MenuItem
               onAction={() => window.open("https://cmis.ac.th/", "_blank")}
               className="navmenu-item flex items-center"
             >
               CMIS
+              <ArrowTopRightOnSquareIcon className="ml-2 inline-block h-4 w-4" />
+            </MenuItem>
+            <MenuItem
+              onAction={() =>
+                window.open(
+                  "https://arthitourairat.com/sbs-international-school-chiangmai/",
+                  "_blank",
+                )
+              }
+              className="navmenu-item flex items-center"
+            >
+              SBSIS Chiang Mai
               <ArrowTopRightOnSquareIcon className="ml-2 inline-block h-4 w-4" />
             </MenuItem>
           </Section>

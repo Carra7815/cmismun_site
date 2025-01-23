@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 
 import Navmenu from "./Navmenu";
-import ToggleTheme from "./ToggleTheme";
+// import ToggleTheme from "./ToggleTheme";
 import logo from "../assets/logo.png";
 
 function Navbar() {
   return (
-    <nav className="bg-blue-600 p-4 dark:bg-teal-900">
+    <nav className="p-4 bg-teal-900">
       <div className="container mx-auto flex items-center justify-between">
         <Link
           to="/"
@@ -29,9 +29,9 @@ function Navbar() {
           <li className="flex">
             <Navmenu />
           </li>
-          <li className="flex">
+          {/* <li className="flex">
             <ToggleTheme />
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

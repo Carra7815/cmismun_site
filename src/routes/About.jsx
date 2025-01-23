@@ -2,21 +2,25 @@ import React from "react";
 
 function About() {
   return (
-    <div className="mx-auto max-w-2xl">
-      <h1 className="mb-4 text-3xl font-bold">About My Organization</h1>
+    <div className="std-page">
+      <h2>About CMMUN</h2>
       <p>
-        Founded in 2023, our organization is a community of passionate
-        volunteers dedicated to exploring and advancing our shared interests.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque,
+        ratione architecto! Dolores quasi pariatur nesciunt ad consequuntur
+        eaque doloribus eligendi? Suscipit asperiores repellendus nesciunt ad
+        iusto vitae soluta quas ipsa.
       </p>
       <p>
-        Our mission is to provide a platform for volunteers to develop their
-        skills, collaborate on exciting projects, and prepare for future careers
-        in our field.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure commodi
+        amet nihil atque eaque, dolorum porro unde? Tempora, provident. Pariatur
+        minus quod hic optio. Quia commodi molestias expedita dolorem
+        laudantium?
       </p>
       <p>
-        We welcome volunteers from all backgrounds and skill levels. Whether
-        you're a beginner or an expert, there's a place for you in our
-        organization!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ratione
+        voluptates doloremque, commodi error veritatis reiciendis quisquam,
+        animi incidunt, iusto amet quaerat fugit accusantium earum molestias
+        nobis non dolorum provident!
       </p>
     </div>
   );

@@ -2,15 +2,17 @@ import React from "react";
 
 function Index() {
   return (
-    <div className="mx-auto max-w-2xl">
-      <h1>Welcome to My Organization</h1>
+    <div className="std-page">
+      <h1 className="">Chiang Mai Model United Nations</h1>
       <p>
-        We're excited to have you here! My organization is dedicated to
-        fostering creativity, collaboration, and learning among volunteers.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat maxime
+        nesciunt qui. Nesciunt expedita perspiciatis nulla rem, quasi dolor qui
+        at voluptate quam dolorem rerum facilis quia. Laudantium, minus beatae.
       </p>
       <p>
-        Explore our site to learn more about who we are, what we do, and the
-        exciting projects we're working on.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod a sapiente
+        nam, error consequatur cum animi est officiis eaque architecto nostrum
+        alias quaerat tempore reprehenderit nihil beatae ullam tempora facilis.
       </p>
     </div>
   );

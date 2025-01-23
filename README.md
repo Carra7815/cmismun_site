@@ -1,3 +1,3 @@
 # CMMUN
 
-The site for Chiang Mai Model United Nations (for CMIS)
+The site for Chiang Mai Model United Nations (for CMIS and SBSIS)
